@@ -12,10 +12,9 @@
     
   </head>
   <body>
-    <header>
+    <header class="nav-bar">
 
       <!-- Menu de Inicio -->
-    
       <nav class="navbar bg-body-tertiary p-0 " >
         <div class=" small container-fluid height: "style="background-color:#42454C">
           
@@ -46,28 +45,15 @@
     
     </header>
 
-    <section class="row justify-content-end ">
-      <!-- Primera foto  --> 
-      
-     <div class="card text-bg-dark">
-        <div class="rel" >
-          <img class=" imagen card-img"  src="../img/ba1.jpg" height="600" alt="...">
-          <div class="justify-content-end"></div>
-
-          <div  class="col-sm-12 col-lg-6 textoparrafo card-img-overlay  text-end position-absolute">
-
-            <h3 class="card-title textoh3 ">Conf Bs As</h3>
-            <p class=" textop card-text ">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de orimer nivel que tenemos para ti. Te esperamos!</p>
+    <section class="hero-container">
+        <div class="hero">
+          <h3 class="card-title textoh3 text-light">Conf Bs As</h3>
+          <p class="text-end textop card-text text-light">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de orimer nivel que tenemos para ti. Te esperamos!</p>
+          <div>
             <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
             <button type="button" class="btn btn-success">Comprar tickets</button>
-            
           </div>
-        <div class="background-color #000000 "></div>
-          
-      </div>
-       
-     
-     </div>
+        </div>
    </section>
 
    <section class="my-3">
@@ -145,23 +131,27 @@
     </div>
 
 
-    <div class="row  ">
-      <div class="col-4 mx-auto">
-        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+    <div class="form">
+      <div class="form-nomApe">
+      
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+        
+        
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+       
       </div>
-      <div class="col-4 mx-auto">
-        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
-      </div>
-      <div class="p-5">
-        <input type="text" class="form-control" placeholder="sobre que quieres hablar?" aria-label="Apellido">
-        <p  class="h6 small p-1">recuerda incluir un titulo para tu charla</p>
+   
+      <div class="py-4">
+        <textarea class="form-text-area" placeholder="Sobre que quieres hablar?"></textarea>
+        <p  class="h6 small p-1">Recuerda incluir un titulo para tu charla</p>
         
       </div>
+      <div class="d-grid gap-2 ">
+        <button class= "btn btn-success" style="background-color:#83E467" type="button">Enviar</button>
+       
+      </div>
     </div>
-    <div class="d-grid gap-2 ">
-      <button class= "btn btn-success" style="background-color:#83E467" type="button">Enviar</button>
-     
-    </div>
+
   </section>
 
   <section>
